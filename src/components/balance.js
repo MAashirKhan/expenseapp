@@ -8,11 +8,11 @@ const balance = () => {
             <div className="income-expense">
                 <div className="plus">
                     <h2>Income</h2>
-                    <p>$0.00</p>
+                    <p>+$0.00</p>
                 </div>
                 <div className="minus">
                     <h2>Expense</h2>
-                    <p>$0.00</p>
+                    <p>-$0.00</p>
                 </div>
             </div>
         </div>
