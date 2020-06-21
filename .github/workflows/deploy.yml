@@ -24,4 +24,4 @@ jobs:
         run: npm install -g surge
         
       - name: Run surge
-        run: surge ./build expenso-aashir.surge.sh --token${{secrets.SURGE_TOKEN}}
+        run: surge ./build aashir-expenseapp.surge.sh --token${{secrets.SURGE_TOKEN}}
