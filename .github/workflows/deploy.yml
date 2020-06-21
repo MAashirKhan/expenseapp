@@ -1,4 +1,4 @@
-name: Deploy Expense App v1.1 on Surge
+name: Deploy Expense App on Surge
 
 on: [push]
 
@@ -24,4 +24,4 @@ jobs:
         run: npm install -g surge
         
       - name: Run surge
-        run: surge ./build aashir-expenseapp.surge.sh --token${{secrets.SURGE_TOKEN}}
+        run: surge ./build aashir-exp.surge.sh --token${{secrets.SURGE_TOKEN}}
