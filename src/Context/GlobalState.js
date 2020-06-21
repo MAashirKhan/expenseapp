@@ -3,7 +3,7 @@ import AppReducer from "./AppReducer";
 
 const initialState = {
   incomeTransactions:
-    JSON.parse(localStorage.getItem("incomeTransactions")) || [],
+    JSON.parse(localStorage.getItem("incomeTransactiona")) || [],
   expenseTransactions:
     JSON.parse(localStorage.getItem("expenseTransactions")) || []
 };
